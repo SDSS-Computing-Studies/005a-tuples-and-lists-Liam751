@@ -27,9 +27,11 @@ The largest number you entered is 92
 num = []
 
 a = int(input("Enter an integer: "))
+num.insert(0,a)
 
 while a != -1:
     a = int(input("Enter an integer: "))
+    num.insert(0,a)
 
 num.sort()
-print("The largest number you entered is " + num[-1])
+print("The largest number you entered is " + str(num[-1]))
