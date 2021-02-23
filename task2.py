@@ -26,10 +26,10 @@ Enter a word: virus
 
 myList = []
 
-myList.insert(0, str(input("Enter a word: "))).strip()
-myList.insert(1, str(input("Enter a word: "))).strip()
-myList.insert(2, str(input("Enter a word: "))).strip()
-myList.insert(3, str(input("Enter a word: "))).strip()
-myList.insert(4, str(input("Enter a word: "))).strip()
+myList.insert(0, str(input("Enter a word: ").strip()))
+myList.insert(1, str(input("Enter a word: ").strip()))
+myList.insert(2, str(input("Enter a word: ").strip()))
+myList.insert(3, str(input("Enter a word: ").strip()))
+myList.insert(4, str(input("Enter a word: ").strip()))
 
 print(myList)
