@@ -27,7 +27,7 @@ word not in list
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
 print(fruit)
 
-a = str(input("Enter a word from the list: "))
+a = str(input("Enter a word from the list: ")).strip()
 
 if a in fruit:
     while a in fruit:
